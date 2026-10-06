@@ -1,0 +1,33 @@
+{
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce GTX 1650 Ti",
+    "model": "yolov5su.pt",
+    "confidence_threshold": 0.4,
+    "image_size": 640,
+    "images_processed": 2,
+    "average_inference_time_ms": 53.48,
+    "results": [
+        {
+            "image": "bus.jpg",
+            "total_objects": 5,
+            "counts": {
+                "person": 4,
+                "bus": 1
+            },
+            "average_confidence": 0.8121,
+            "inference_time_ms": 53.92,
+            "model_forward_ms": 44.63
+        },
+        {
+            "image": "zidane.jpg",
+            "total_objects": 3,
+            "counts": {
+                "person": 2,
+                "tie": 1
+            },
+            "average_confidence": 0.8017,
+            "inference_time_ms": 53.04,
+            "model_forward_ms": 41.05
+        }
+    ]
+}
